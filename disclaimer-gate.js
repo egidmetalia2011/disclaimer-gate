@@ -11,7 +11,7 @@ addEventListener("keydown",e=>{if(e.key==="Escape"){e.preventDefault();e.stopPro
 const TITLE="Disclaimer";
 const TEXT=`We work with US real estate investors for Non-QM, Non-RESPA, and Non-Owner Occupied properties. We do not work on residential, single family, or 1-4-unit multi-family deals.
 
-Terra Digital Realty, LLC is not a loan originator and/or mortgage broker and cannot provide underwriting services and/or provide rate quotes. All financing is subject to lender approval; we do not guarantee funding and/or closing.`;
+Terra Digital Realty, LLC is not a lender, loan originator, mortgage broker, or underwriter, and does not provide rate quotes or financial advice. Terra’s role is limited to providing introductions only. All financing is subject to lender approval. Terra does not guarantee funding or closing and makes no representations or warranties regarding any capital partner. Borrowers are responsible for conducting their own independent due diligence on all third parties. Any transaction is solely between borrower and capital partner.`;
 
 const css=`
 #tdr_g{position:fixed;inset:0;z-index:2147483647;display:flex;align-items:center;justify-content:center;padding:28px;background:rgba(0,0,0,.75)}
